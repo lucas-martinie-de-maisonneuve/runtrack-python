@@ -1,6 +1,6 @@
 nom = "Bananes"
 prix = float(1.5)
-quantite = 10
+quantite = 50
 
 print ("Il y a", quantite, nom, "en stock")
 print (prix, "€ l'unité")
