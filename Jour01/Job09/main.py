@@ -2,14 +2,13 @@ nom = "Bananes"
 prix = float(1.5)
 quantite = 50
 
-print ("Il y a", quantite, nom, "en stock")
-print (prix, "€ l'unité")
+print (f"Il y a {quantite} {nom} en stock \n {prix}€ l'unité")
+
 print ("Combien de bananes voulez vous acheter?")
 achat = int(input())
 
 quantite = quantite - achat
-
 prix = prix * 1.1
 
-print ("il y'a maintenant", quantite, nom, "en stock")
-print (prix, "€ l'unité")
+print (f"Il reste désormais {quantite} {nom} en stock \n Avec 10% d'inflation, {"%.2f" % prix}€ l'unité")
+
