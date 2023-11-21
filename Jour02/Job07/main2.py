@@ -1,4 +1,6 @@
-chaine = "abcdefghijklmnopqrstuvwxyz"*3
+# Pyramide aller-retour
+
+chaine = "abcdefghijklmnopqrstuvwxyz"
 
 for j in range(10):
    
