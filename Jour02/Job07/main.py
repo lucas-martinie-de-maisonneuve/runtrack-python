@@ -1,6 +1,5 @@
-chaine = "abcdefghijklmnopqrstuvwxyz" * 10
-i=1
-
-while i < len(chaine):
-    print (chaine[:i])
-    i = i+1
+chaine = "abcdefghijklmnopqrstuvwxyz" *10
+    
+for i in range(len(chaine)):
+    if i % 2 != 0:
+        print(chaine[:i])
