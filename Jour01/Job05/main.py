@@ -1,11 +1,11 @@
 
 import string
 
-lower = list(string.ascii_lowercase)
+alphabet = list(string.ascii_lowercase)
 
-lower.reverse()
+alphabet.reverse()
 
-print (lower)
+print (alphabet)
 
 
 # Ou alors :
