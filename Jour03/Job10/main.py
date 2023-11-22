@@ -1,6 +1,6 @@
 def posneg (nombre):
 
-    if nombre > 0 and isinstance(nombre,int):
+    if nombre > 0 and nombre % 1 == 0:
         if nombre % 2 == 0:
             print (nombre, "est pair")
         else:
