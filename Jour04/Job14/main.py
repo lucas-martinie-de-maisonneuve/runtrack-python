@@ -3,7 +3,7 @@ def my_long_word(num, phrase):
     mot = ""
 
     for i in phrase:
-        if i != " " and i != ",":
+        if i != " " and i != "," and i != ".":
             mot += i
         else:
             j = 0
@@ -18,4 +18,4 @@ def my_long_word(num, phrase):
             
     return tri
 
-print(my_long_word(3, "La peur est le chemin vers le côté obscur, la peur mène à la colère, la colère mène à la haine, la haine mène à la souffrance"))
+print(my_long_word(3, "La peur est le chemin vers le côté obscur, la peur mène à la colère, la colère mène à la haine, la haine mène à la souffrance."))
