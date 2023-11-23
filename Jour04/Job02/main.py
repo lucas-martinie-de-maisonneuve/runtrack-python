@@ -1,5 +1,5 @@
 def liste():
     fruits = ["pomme", "cerise", "orange"]
-    print(fruits)
+    print(fruits[:2])
 
 liste()
