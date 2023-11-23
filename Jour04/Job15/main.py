@@ -1,8 +1,15 @@
+L=[22.4, 4.0, 16.22, 9.10, 11.00, 12.22, 14.20, 5.20, 17.50]
+
 def tri(liste):
     n = 0
     for a in liste:
         n += 1
-        
+
+    i = 0
+    while i < n:
+        liste[i] = int(liste[i] + 0.5)
+        i += 1
+
     i = 0
     while i < n:
         j = 0
@@ -13,4 +20,4 @@ def tri(liste):
         i += 1
     return liste
 
-print(tri([12, 2, 55, 23, 102, 5]))
+print(tri(L))

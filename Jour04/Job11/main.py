@@ -1,9 +1,4 @@
-L = []
-L.append(7)
-L.append(11)
-L.append(42)
-L.append(39)
-L.append(2)
+L = [7, 11, 42, 39, 2]
 
 print (L)
 
